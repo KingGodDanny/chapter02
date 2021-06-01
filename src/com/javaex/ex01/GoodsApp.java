@@ -16,6 +16,7 @@ public class GoodsApp {
 		computer.name = "LG그램";
 		computer.price = 1000000;
 		System.out.println(computer.name +":"+computer.price);
+
 		
 		Goods cup = new Goods();
 		
