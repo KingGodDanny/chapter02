@@ -25,6 +25,9 @@ public class PointApp {
 		Point p04 = new Point(100);
 		p04.draw();
 		
+		//메소드 오버로딩
+		Point p05 = new Point(50,50);
+		p05.draw(false);
 	}
 
 }

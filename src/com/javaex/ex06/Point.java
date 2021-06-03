@@ -51,4 +51,20 @@ public class Point {
 			//그리는 복잡한 기능을 구현해야한다고 가정..
 			System.out.println("점[x=" + x + ", y=" + y + "]을 그렸습니다.");
 		}
+		
+		
+		public void draw(boolean flag) {
+			if(flag==true) {
+				
+				System.out.println("점[x=" + x + ", y=" + y + "]을 그렸습니다.");
+			} else {
+				System.out.println("점[x=" + x + ", y=" + y + "]을 지웠습니다.");
+			}
+			
+		}
+		
+		
+		
+		
+		
 }
