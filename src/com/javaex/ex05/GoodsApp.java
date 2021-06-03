@@ -40,7 +40,7 @@ public class GoodsApp {
 		camera02.showInfo();
 		camera03.showInfo();
 		
-		
+		  
 		
 	}
 }
