@@ -17,16 +17,26 @@ public class SongApp {
 		iU.setComposer("이민수");
 		iU.showInfo();
 		
+		
+		
 		Song bigbang = new Song("거말" , 6);
 		bigbang.showInfo();
 		bigbang.setTitle("거짓말");
 		bigbang.showInfo();
 		
+		
 		Song bigbang02 = new Song("거진말",10);
 		bigbang02.showInfo();
 		
+		
+		
 		Song bigbang03 = new Song("쥐드래곤" , "거진말");
 		bigbang03.showInfo();
+		
+		
+		
+		Song busker = new Song("벚꽂엔딩", "버스커버스커","장범준", "버스커버스커1집", 2012, 4);
+		busker.showInfo();
 		
 		
 	}

@@ -13,20 +13,12 @@ public class Song {
 	
 	
 	//생성자---------------------------------------------------------
-	public Song(String title, String artist, String composer, String album, int year, int track) {
-		
-		this(title, track);
-		
-		this.composer = composer;
-		this.album = album;
-		this.year = year;
-		this.track = track;
-	}   //쉬프트 알트 S 에서 컨스트럭쳐 유징 필드
-
+	
 	public Song () {
 		//디폴트 생성자 > 다른 생성자를 생성할경우에 디폴트생성자는 사라지기때문에
 		//디폴트 사용자를 사용하려면 이처럼 디폴트생성자를 써줘야한다.
 	}
+	
 	
 	public Song(String title, int track) {
 		this.title = title;
@@ -42,6 +34,17 @@ public class Song {
 		this.composer = composer;
 		this.album = album;
 	}
+
+	
+	public Song(String title, String artist, String composer, String album, int year, int track) {
+		
+		this(title, track);
+		
+		this.composer = composer;
+		this.album = album;
+		this.year = year;
+		this.track = track;
+	}   //쉬프트 알트 S 에서 컨스트럭쳐 유징 필드
 	
 //	public Song(String artist, String album) { 
 //		this.artist;
