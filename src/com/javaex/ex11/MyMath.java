@@ -3,9 +3,9 @@ package com.javaex.ex11;
 public class MyMath {
 
 	//필드---------------------------------------------------------------------------
-	
-	
-	
+	private static double PI = 3.14;    
+	//스태틱에 올려주기위해 static이 붙음  
+	//결국 메소드를 스태틱으로 쓰기위해선 필드값도 스태틱으로 올려주는걸 생각해야함!
 	
 	
 	//생성자-------------------------------------------------------------------------
@@ -15,9 +15,6 @@ public class MyMath {
 	
 	
 	//메소드 게터세터----------------------------------------------------------------
-	
-	
-	
 	
 	
 	
@@ -46,5 +43,10 @@ public class MyMath {
 		return result;
 	}
 	
+	public static double circleArea(int radius) {
+		double result = radius * radius * PI;
+		return result;
+		
+	}
 	
 }

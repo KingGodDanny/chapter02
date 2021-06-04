@@ -2,6 +2,10 @@ package com.javaex.ex11;
 
 public class MyMathApp {
 
+	//밑에 메인 살펴보기전에 static이 있는지 먼저 살펴봄!
+	//그냥 필드는 이 스태틱 구간에서 사용할수가없음
+	//필드를 퍼블릭스태틱이나 프라이빗스태틱으로 변경해줘야함
+	
 	public static void main(String[] args) {
 	
 		
@@ -28,6 +32,12 @@ public class MyMathApp {
 		System.out.println(MyMath.plus(10.1, 12.4));
 		System.out.println(MyMath.plus(99, 99.4));
 		System.out.println(MyMath.plus(99.7, 34));
+		
+		System.out.println("====================================================");
+		
+		System.out.println(MyMath.circleArea(5));
+		
+		
 		
 		/*
 		MyMath myMath = new MyMath(); // 이렇게 쓸 이유가 없다
