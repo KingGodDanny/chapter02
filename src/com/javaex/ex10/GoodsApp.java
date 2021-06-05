@@ -1,7 +1,7 @@
 package com.javaex.ex10;
 
 public class GoodsApp {
-
+    
 
 	//static 관련업무  ---> 스태틱은 잘 사라지지않는다
 	//count 용도로 static 잘사용하지않는다 --> 현재수업에선 배열사용할것임(하지만 한계가잇음)

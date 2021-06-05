@@ -1,7 +1,7 @@
 package com.javaex.ex10;
 
 public class Goods {
-
+     
 	//필드-------------------------------------------------------------
 	private String name;  
 	private int price;
