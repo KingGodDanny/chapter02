@@ -22,7 +22,7 @@ public class MyMathApp {
 		*/
 		
 		
-		
+		  
 		
 		//스태틱에 올려놓은것을 공용으로 쓴것
 		//스태틱 사용법은 메소드(일반)에 public static 자료형 변수명() 해놓고

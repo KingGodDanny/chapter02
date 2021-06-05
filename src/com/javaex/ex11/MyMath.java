@@ -25,7 +25,7 @@ public class MyMath {
 		int result = a + b;		// 복잡한 계산식이라고 가정한다.
 		
 		return result;
-	}
+	}  
 	
 	public static double plus(double a, double b ) {
 		double result = a + b;
