@@ -21,7 +21,7 @@ public class PersonApp {
 		
 		
 		Student s04 = new Student("이효리" , 45, "애월고등학교");
-		
+		s04.showInfo();
 		
 		
 	}
