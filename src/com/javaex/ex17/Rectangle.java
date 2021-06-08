@@ -11,6 +11,7 @@ public class Rectangle extends Shape {
   
 	public Rectangle() {
 		// super(); // Shape() --> super()
+		super();
 		System.out.println("Rectangel()");
 	}
 
@@ -55,7 +56,6 @@ public class Rectangle extends Shape {
 		System.out.println(
 				"[면색: " + fillColor + ", 선색: " + lineColor + ", 가로: " + width + ", 세로: " + height + "] 사각형을 그렸습니다.");
 	}
-
 	//메소드 draw처럼 부모와 자식에 이름이 동일한 경우를 --재정의--라고 하고 자식거를 먼저쓴다!
 	
 	
