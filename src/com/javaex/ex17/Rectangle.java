@@ -11,7 +11,7 @@ public class Rectangle extends Shape {
   
 	public Rectangle() {
 		// super(); // Shape() --> super()
-		super();
+		
 		System.out.println("Rectangel()");
 	}
 
