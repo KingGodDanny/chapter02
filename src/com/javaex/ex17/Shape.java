@@ -7,7 +7,7 @@ public class Shape {   //부모상속자이기때문에 자식을 고려해서 �
 	protected String lineColor;
 
 	// 생성자-----------------------------------------------------------
-
+   
 	public Shape() {
 		super();
 		System.out.println("Shape()");

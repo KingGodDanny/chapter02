@@ -9,7 +9,7 @@ public class ShapeApp {
 		Shape s01 = new Shape("빨강", "검정");
 		System.out.println(s01.toString());
 		s01.draw();
-		
+		   
 		/*
 		//상속된자식클래스 테스트 - 사각형테스트
 		Rectangle r01 = new Rectangle("빨강", "검정" , 3 , 3); //생성자 순서 Shape(2) -> Rectangle(4)	

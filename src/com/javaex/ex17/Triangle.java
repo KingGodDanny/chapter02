@@ -13,7 +13,7 @@ public class Triangle extends Shape {
 	public Triangle() {
 		super();
 	}
-
+  
 
 	public Triangle(String fillColor, String lineColor, int width, int height) {
 

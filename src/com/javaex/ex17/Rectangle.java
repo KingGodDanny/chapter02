@@ -8,7 +8,7 @@ public class Rectangle extends Shape {
 	private int height;
 
 	// 생성자-----------------------------------------------------
-
+  
 	public Rectangle() {
 		// super(); // Shape() --> super()
 		System.out.println("Rectangel()");
