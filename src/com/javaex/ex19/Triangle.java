@@ -1,6 +1,8 @@
 package com.javaex.ex19;
 
-public class Triangle extends Shape {
+import com.javaex.ex20.Drawable;
+
+public class Triangle extends Shape implements Drawable {
 	
 	//필드---------------------------------------------
 	
@@ -58,13 +60,13 @@ public class Triangle extends Shape {
 	}
 	
 	
-	public void draw() {
+	public void draw() {    //public interface Drawable때문에 쓰는것!
 		System.out.println(
 				"[면색: " + fillColor + ", 선색: " + lineColor + ", 가로: " + width + ", 세로: " + height + "] 삼각형을 그렸습니다.");
 	}
 	
 	//추상클래스를 상속하면 추상메소드를 구현해야한다.
-	public double area() {
+	public double area() {   //부모인 public abstract class Shape 때문에 쓰는것!
 		return (width*height)/2;
 	}
 	
